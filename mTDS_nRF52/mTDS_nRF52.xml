@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:/Dropbox/GATech/FPGA_TDS_Implementation/Hardware/mTDS_nRF52/mTDS_nRF52.sch</source>
+    <date>05/10/2017 18:15:37</date>
+    <tool>Eeschema 4.0.3-stable</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>mTDS_nRF52.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="MS1">
+      <value>nRF52</value>
+      <footprint>Adafruit nRF52 Bluefruit Feather:MICROBUILDER_FEATHERWING_NOHOLES</footprint>
+      <libsource lib="Adafruit nRF52 Bluefruit Feather" part="MICROBUILDER_FEATHERWING_NOHOLES"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D3D4FB</tstamp>
+    </comp>
+    <comp ref="X1">
+      <value>BAT_JST</value>
+      <footprint>LSM9DS1:Bat_Con</footprint>
+      <libsource lib="Adafruit nRF52 Bluefruit Feather" part="MICROBUILDER_CON_JST_PH_2PIN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D3D5A1</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>Switch</value>
+      <footprint>LSM9DS1:switch</footprint>
+      <libsource lib="Adafruit nRF52 Bluefruit Feather" part="Switch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D3E017</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>LSM9DS1</value>
+      <footprint>LSM9DS1:LSM9DS1</footprint>
+      <libsource lib="Low Density Board_Cape-cache" part="LSM9DS1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D3E4D0</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D3E7AE</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D3E803</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D3E8DD</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D3EC37</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D3ECA1</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D41C76</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D41E22</tstamp>
+    </comp>
+    <comp ref="U3">
+      <value>TDS_SC</value>
+      <footprint>LSM9DS1:TDS_SC</footprint>
+      <libsource lib="Adafruit nRF52 Bluefruit Feather" part="TDS_SC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D47AE5</tstamp>
+    </comp>
+    <comp ref="U4">
+      <value>TDS_SC</value>
+      <footprint>LSM9DS1:TDS_SC</footprint>
+      <libsource lib="Adafruit nRF52 Bluefruit Feather" part="TDS_SC"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D47B56</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D488C8</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D48961</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D489DF</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
+      <libsource lib="device" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59D48BCE</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Low Density Board_Cape-cache" part="LSM9DS1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LSM9DS1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD_IO" type="BiDi"/>
+        <pin num="2" name="SCL/SPC" type="BiDi"/>
+        <pin num="3" name="VDD_IO" type="BiDi"/>
+        <pin num="4" name="SDA/SDI/SDO" type="BiDi"/>
+        <pin num="5" name="SDO_A/G" type="BiDi"/>
+        <pin num="6" name="SDO_M" type="BiDi"/>
+        <pin num="7" name="CS_A/G" type="BiDi"/>
+        <pin num="8" name="CS_M" type="BiDi"/>
+        <pin num="9" name="DRDY_M" type="BiDi"/>
+        <pin num="10" name="INT_M" type="BiDi"/>
+        <pin num="11" name="INT1_A/G" type="BiDi"/>
+        <pin num="12" name="INT2_A/G" type="BiDi"/>
+        <pin num="13" name="DEN_A/G" type="BiDi"/>
+        <pin num="14" name="RES" type="BiDi"/>
+        <pin num="15" name="RES" type="BiDi"/>
+        <pin num="16" name="RES" type="BiDi"/>
+        <pin num="17" name="RES" type="BiDi"/>
+        <pin num="18" name="RES" type="BiDi"/>
+        <pin num="19" name="GND" type="BiDi"/>
+        <pin num="20" name="GND" type="BiDi"/>
+        <pin num="21" name="CAP" type="BiDi"/>
+        <pin num="22" name="VDD" type="BiDi"/>
+        <pin num="23" name="VDD" type="BiDi"/>
+        <pin num="24" name="C1" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit nRF52 Bluefruit Feather" part="MICROBUILDER_CON_JST_PH_2PIN">
+      <footprints>
+        <fp>*MICROBUILDER_JSTPH2*</fp>
+        <fp>*MICROBUILDER_JSTPH2_NOTHERMALS*</fp>
+        <fp>*MICROBUILDER_JSTSH2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">MICROBUILDER_CON_JST_PH_2PIN</field>
+        <field name="Footprint">MICROBUILDER_JSTPH2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit nRF52 Bluefruit Feather" part="MICROBUILDER_FEATHERWING_NOHOLES">
+      <footprints>
+        <fp>*MICROBUILDER_FEATHERWING_NOHOLES*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">MS</field>
+        <field name="Value">MICROBUILDER_FEATHERWING_NOHOLES</field>
+        <field name="Footprint">MICROBUILDER_FEATHERWING_NOHOLES</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~RESET" type="input"/>
+        <pin num="2" name="3V" type="power_out"/>
+        <pin num="3" name="AREF" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="GPIOA0" type="BiDi"/>
+        <pin num="6" name="GPIOA1" type="BiDi"/>
+        <pin num="7" name="GPIOA2" type="BiDi"/>
+        <pin num="8" name="GPIOA3" type="BiDi"/>
+        <pin num="9" name="GPIOA4" type="BiDi"/>
+        <pin num="10" name="GPIOA5" type="BiDi"/>
+        <pin num="11" name="GPIOSCK" type="BiDi"/>
+        <pin num="12" name="GPIOMOSI" type="BiDi"/>
+        <pin num="13" name="GPIOMISO" type="BiDi"/>
+        <pin num="14" name="GPIORX" type="BiDi"/>
+        <pin num="15" name="GPIOTX" type="BiDi"/>
+        <pin num="16" name="NC" type="passive"/>
+        <pin num="17" name="GPIOSDA" type="BiDi"/>
+        <pin num="18" name="GPIOSCL" type="BiDi"/>
+        <pin num="19" name="GPIO5" type="BiDi"/>
+        <pin num="20" name="GPIO6" type="BiDi"/>
+        <pin num="21" name="GPIO9" type="BiDi"/>
+        <pin num="22" name="GPIO10" type="BiDi"/>
+        <pin num="23" name="GPIO11" type="BiDi"/>
+        <pin num="24" name="GPIO12" type="BiDi"/>
+        <pin num="25" name="GPIO13" type="BiDi"/>
+        <pin num="26" name="USB" type="power_out"/>
+        <pin num="27" name="EN" type="passive"/>
+        <pin num="28" name="VBAT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit nRF52 Bluefruit Feather" part="Switch">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Switch</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Hot" type="input"/>
+        <pin num="2" name="Con1" type="input"/>
+        <pin num="3" name="Con2" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adafruit nRF52 Bluefruit Feather" part="TDS_SC">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TDS_SC</field>
+      </fields>
+      <pins>
+        <pin num="1" name="MOSI" type="input"/>
+        <pin num="2" name="SCK" type="input"/>
+        <pin num="3" name="MISO" type="input"/>
+        <pin num="4" name="NC" type="input"/>
+        <pin num="5" name="CS1" type="input"/>
+        <pin num="6" name="CS2" type="input"/>
+        <pin num="7" name="3.3V" type="input"/>
+        <pin num="8" name="GND" type="input"/>
+        <pin num="9" name="NC" type="input"/>
+        <pin num="10" name="NC" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="Adafruit nRF52 Bluefruit Feather">
+      <uri>D:\Dropbox\GATech\FPGA_TDS_Implementation\Hardware\nRF52_ADAFRUIT\kicad\Adafruit nRF52 Bluefruit Feather.lib</uri>
+    </library>
+    <library logical="Low Density Board_Cape-cache">
+      <uri>D:\Dropbox\GATech\mojo_cape_v2\Low Density Board_Cape-cache.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/CS1">
+      <node ref="MS1" pin="19"/>
+      <node ref="U3" pin="5"/>
+    </net>
+    <net code="2" name="Net-(U3-Pad10)">
+      <node ref="U3" pin="10"/>
+    </net>
+    <net code="3" name="Net-(U3-Pad9)">
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="4" name="/CS2">
+      <node ref="MS1" pin="20"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="5" name="Net-(U4-Pad4)">
+      <node ref="U4" pin="4"/>
+    </net>
+    <net code="6" name="Net-(U3-Pad4)">
+      <node ref="U3" pin="4"/>
+    </net>
+    <net code="7" name="/MISO">
+      <node ref="U2" pin="6"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U4" pin="3"/>
+      <node ref="U3" pin="3"/>
+      <node ref="MS1" pin="13"/>
+    </net>
+    <net code="8" name="/SCK">
+      <node ref="U3" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U4" pin="2"/>
+      <node ref="MS1" pin="11"/>
+    </net>
+    <net code="9" name="/MOSI">
+      <node ref="U2" pin="4"/>
+      <node ref="MS1" pin="12"/>
+      <node ref="U4" pin="1"/>
+      <node ref="U3" pin="1"/>
+    </net>
+    <net code="10" name="/DEN_AG">
+      <node ref="U2" pin="13"/>
+      <node ref="MS1" pin="5"/>
+    </net>
+    <net code="11" name="/CS3">
+      <node ref="MS1" pin="24"/>
+      <node ref="U4" pin="5"/>
+    </net>
+    <net code="12" name="/CS4">
+      <node ref="U4" pin="6"/>
+      <node ref="MS1" pin="25"/>
+    </net>
+    <net code="13" name="Net-(U4-Pad9)">
+      <node ref="U4" pin="9"/>
+    </net>
+    <net code="14" name="Net-(U4-Pad10)">
+      <node ref="U4" pin="10"/>
+    </net>
+    <net code="15" name="Net-(C5-Pad2)">
+      <node ref="U2" pin="24"/>
+      <node ref="C5" pin="2"/>
+    </net>
+    <net code="16" name="Net-(C6-Pad2)">
+      <node ref="C6" pin="2"/>
+      <node ref="U2" pin="21"/>
+    </net>
+    <net code="17" name="GND">
+      <node ref="MS1" pin="4"/>
+      <node ref="U2" pin="18"/>
+      <node ref="U2" pin="14"/>
+      <node ref="U2" pin="15"/>
+      <node ref="U2" pin="16"/>
+      <node ref="U2" pin="17"/>
+      <node ref="U2" pin="19"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U3" pin="8"/>
+      <node ref="U4" pin="8"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C6" pin="1"/>
+      <node ref="X1" pin="1"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="U2" pin="20"/>
+      <node ref="C9" pin="2"/>
+    </net>
+    <net code="18" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+      <node ref="X1" pin="2"/>
+    </net>
+    <net code="19" name="+3V3">
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="22"/>
+      <node ref="U2" pin="23"/>
+      <node ref="C11" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U2" pin="1"/>
+      <node ref="U4" pin="7"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U3" pin="7"/>
+      <node ref="C1" pin="1"/>
+      <node ref="MS1" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C10" pin="1"/>
+    </net>
+    <net code="20" name="Net-(U2-Pad11)">
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="21" name="Net-(U2-Pad10)">
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="22" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="24" name="Net-(U2-Pad12)">
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="25" name="/CS5">
+      <node ref="MS1" pin="23"/>
+      <node ref="U2" pin="8"/>
+    </net>
+    <net code="26" name="Net-(MS1-Pad3)">
+      <node ref="MS1" pin="3"/>
+    </net>
+    <net code="27" name="Net-(MS1-Pad6)">
+      <node ref="MS1" pin="6"/>
+    </net>
+    <net code="28" name="Net-(MS1-Pad7)">
+      <node ref="MS1" pin="7"/>
+    </net>
+    <net code="29" name="Net-(MS1-Pad8)">
+      <node ref="MS1" pin="8"/>
+    </net>
+    <net code="30" name="Net-(MS1-Pad9)">
+      <node ref="MS1" pin="9"/>
+    </net>
+    <net code="31" name="Net-(MS1-Pad10)">
+      <node ref="MS1" pin="10"/>
+    </net>
+    <net code="32" name="Net-(MS1-Pad21)">
+      <node ref="MS1" pin="21"/>
+    </net>
+    <net code="33" name="Net-(MS1-Pad14)">
+      <node ref="MS1" pin="14"/>
+    </net>
+    <net code="34" name="Net-(MS1-Pad15)">
+      <node ref="MS1" pin="15"/>
+    </net>
+    <net code="35" name="Net-(MS1-Pad16)">
+      <node ref="MS1" pin="16"/>
+    </net>
+    <net code="36" name="Net-(MS1-Pad26)">
+      <node ref="MS1" pin="26"/>
+    </net>
+    <net code="37" name="Net-(MS1-Pad17)">
+      <node ref="MS1" pin="17"/>
+    </net>
+    <net code="38" name="Net-(MS1-Pad27)">
+      <node ref="MS1" pin="27"/>
+    </net>
+    <net code="39" name="Net-(MS1-Pad18)">
+      <node ref="MS1" pin="18"/>
+    </net>
+    <net code="40" name="Net-(MS1-Pad28)">
+      <node ref="U1" pin="2"/>
+      <node ref="MS1" pin="28"/>
+    </net>
+    <net code="41" name="/CS6">
+      <node ref="U2" pin="7"/>
+      <node ref="MS1" pin="22"/>
+    </net>
+    <net code="42" name="Net-(MS1-Pad1)">
+      <node ref="MS1" pin="1"/>
+    </net>
+  </nets>
+</export>
